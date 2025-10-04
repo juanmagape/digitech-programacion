@@ -11,7 +11,7 @@ public class Solution {
         float tasa = print.nextFloat();
         float tiempo = print.nextFloat();
 
-        float valorFinal = (float) (valorInicial * Math.exp(tasa * tiempo));
+        float valorFinal = (float) (valorInicial * Math.exp (tasa * tiempo));
 
         System.out.println(valorFinal);
 
