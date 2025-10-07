@@ -14,7 +14,7 @@ public class Solution {
 
         System.out.println("<?xml version=1.0 encoding=UTF-8?>\n");
         System.out.println("<persona>");
-        System.out.println("<nombre>" + nombre + "</nombre>");
+        System.out.println("<nombre>" + nombre + "  </nombre>");
         System.out.println("<edad>" + edad + "</edad>");
         System.out.println("<ciudad>" + ciudad + "</ciudad>");
         System.out.println("</persona>");
