@@ -1,4 +1,4 @@
-package ejercicio44_luces;
+package ejercicio53_luces;
 import java.util.Scanner;
 
 public class Solution {

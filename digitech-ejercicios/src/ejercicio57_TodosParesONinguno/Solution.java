@@ -1,4 +1,4 @@
-package ejercicio48_TodosParesONinguno;
+package ejercicio57_TodosParesONinguno;
 import java.util.Scanner;
 
 public class Solution {

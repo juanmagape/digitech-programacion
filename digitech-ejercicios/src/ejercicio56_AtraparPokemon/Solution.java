@@ -1,4 +1,4 @@
-package ejercicio47_AtraparPokemon;
+package ejercicio56_AtraparPokemon;
 import java.util.Scanner;
 
 public class Solution {

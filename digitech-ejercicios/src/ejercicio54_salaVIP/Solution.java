@@ -1,4 +1,4 @@
-package ejercicio45_salaVIP;
+package ejercicio54_salaVIP;
 import java.util.Scanner;
 
 public class Solution {

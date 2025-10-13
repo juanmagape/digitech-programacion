@@ -1,4 +1,4 @@
-package ejercicio46_chunksMinecraft;
+package ejercicio55_chunksMinecraft;
 import java.util.Scanner;
 
 public class Solution {

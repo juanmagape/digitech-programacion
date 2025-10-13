@@ -1,4 +1,4 @@
-package ejercicio49_DosReinas1;
+package ejercicio58_DosReinas1;
 import java.util.Scanner;
 
 public class Solution {
