@@ -12,7 +12,7 @@ public class Solution {
         int xReina2 = print.nextInt();
         int yReina2 = print.nextInt();
 
-        boolean res = (xReina1 == xReina2) || (yReina1 == yReina2) || (xReina1 - xReina2) == (yReina1 - yReina2) || (xReina1 - xReina2) == -(yReina1 - yReina2);;
+        boolean res = (xReina1 == xReina2) || (yReina1 == yReina2) || (xReina1 - xReina2) == (yReina1 - yReina2) || (xReina1 - xReina2) == -(yReina1 - yReina2);
         System.out.println(res);
     }
 }
