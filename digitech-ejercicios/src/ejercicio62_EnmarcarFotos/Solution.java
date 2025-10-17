@@ -17,6 +17,7 @@ public class Solution {
         int cero3 = print.nextInt();
         int cero4 = print.nextInt();
 
-
+        boolean coord = (num1 - num1_2) == (num2 - num2_2) && (cero1 - cero2) == (cero3 - cero4);
+        System.out.println(coord);
     }
 }
