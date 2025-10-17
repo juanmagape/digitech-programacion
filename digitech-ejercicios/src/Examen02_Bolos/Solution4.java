@@ -13,12 +13,8 @@ public class Solution4 {
         int tieneTapones = decLim * 2;
 
         boolean peligro = decAct > decLim;
-        boolean peligroTapones = decAct > tieneTapones;
+        boolean peligroTapones = tapones && decAct > tieneTapones;
 
-        if(tapones) {
-            System.out.println(peligroTapones);
-        } else {
-            System.out.println(peligro);
-        }
+        System.out.println(peligro || peligroTapones);
     }
 }
