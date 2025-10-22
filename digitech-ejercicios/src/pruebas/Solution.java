@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
 
-    int a = 6;
+        Scanner sc = new Scanner(System.in);
+        String texto = sc.nextLine();
 
-        System.out.println();
+        String palabras [] = texto.split(" ");
 
+        for (int i = 0; i <= palabras.length; i++) {
+            System.out.println(palabras[i]);
+        }
     }
 }
