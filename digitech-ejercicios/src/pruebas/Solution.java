@@ -8,7 +8,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         String palabra = sc.nextLine();
 
-        String palabras [] = palabra.split(" ");
+        String palabras [] = palabra.split("  ");
 
         for (int a = 0; a <= palabras.length; a++) {
             System.out.println(palabras[a]);
