@@ -10,8 +10,8 @@ public class Solution {
 
         String palabras [] = palabra.split(" ");
 
-        for (int i = 0; i <= palabras.length; i++) {
-            System.out.println(palabras[i]);
+        for (int a = 0; a <= palabras.length; a++) {
+            System.out.println(palabras[a]);
         }
     }
 }
