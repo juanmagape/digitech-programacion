@@ -1,4 +1,4 @@
-package ejericio69_SumaNumeros2;
+package ejericio69_SumaNumeros;
 import java.util.Scanner;
 
 public class Solution {
