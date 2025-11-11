@@ -6,16 +6,14 @@ public class Solution {
     public static void main(String[] args) {
         Scanner print = new Scanner(System.in);
 
-        int alt = print.nextInt();
-        int num = print.nextInt();
-        int alturaPuente = 0;
+        float alt = print.nextFloat();
+        float num = print.nextFloat();
 
         for (int i = 0; i < num; i++) {
-            alturaPuente = print.nextInt();
-            if (alturaPuente > alt) {
-                System.out.println("choca con el puente " + i);
-            } else {
-
+            float alturaPuente = print.nextFloat();
+            if (alturaPuente < alt) {
+                System.out.println("choca con el puente " + (i + 1));
+                break;
             }
         }
     }
